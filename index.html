@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="ico" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="styles/site.css" />
+  <title>Tile Component</title>
+</head>
+
+<body role="document">
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <span class="navbar-brand">Tile Component</span>
+      </div>
+    </div>
+  </nav>
+  <div class="container" role="main">
+    <div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Forward
+        </div>
+        <div class="panel-body">
+            <p>The following page demonstrates the creation of a reusable component with a minimalistic approach to the html and css. The idea is to be able to use new components while leveraging the structure of a framework.</p>
+            <p>This tile does not leverage any of the bootstrap styling and only has a specific need to correct the font family because it is coming from a CDN and not a project configured scss compiled version.</p>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">Tile Component Baseline</div>
+        <div class="panel-body">
+            <p>The primary HTML of a tile is simplistic and defining the components base styles is simple.</p>
+            <div class="tile tile-sm">
+                <span class="tip">15</span>
+                <header>
+                    <span class="mySubImg"></span>
+                    <div>Small Tile</div>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+            </div>
+            <div class="tile tile-md">
+                <span class="tip">20</span>
+                <header>
+                    <span class="mySubImg"></span>
+                    <div>Medium Tile</div>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+            </div>
+            <div class="tile tile-lg">
+                <span class="tip">30</span>
+                <header>
+                    <span class="mySubImg"></span>
+                    <div>Large</div>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">Tile Component Displayed As collection</div>
+        <div class="panel-body">
+            <p>Here we are presenting a set of the tiles with the applied color states. This uses a "grid" concept also, however, this time we are using a more syntatically correct way of displaying them.</p>
+            <h3>Small Tiles</h3>
+            <ul class="grid">
+                <li class="tile tile-sm info">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-sm warning">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-sm alert">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-sm error">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-sm ok">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+            </ul>
+            <h3>Medium Tiles</h3>
+            <ul class="grid">
+                <li class="tile tile-md info">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-md warning">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-md alert">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-md error">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-md ok">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+            </ul>
+            <h3>Large Tiles</h3>
+            <ul class="grid">
+                <li class="tile tile-lg info">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-lg warning">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-lg alert">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-lg error">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+                <li class="tile tile-lg ok">
+                    <span class="tip">30</span>
+                    <header>
+                        <span class="mySubImg"></span>
+                        <div>Substitutions</div>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue est, cursus vitae tempus ac, viverra in nisi. Aenean non turpis nisi</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+  </div>
+</body>
+
+</html>

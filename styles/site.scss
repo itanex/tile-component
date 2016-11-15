@@ -1,0 +1,8 @@
+@import 'variables/yeti-bootstrap';
+@import '../vendor/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '_tile';
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}

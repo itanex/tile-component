@@ -1,0 +1,111 @@
+    .tile {
+        position: relative;
+        border: 1px solid black;
+        background-color: silver;
+        margin: 0px 15px 15px 0px;
+        padding: 5px;
+        font-size: 16px;
+        color: white;
+        line-height: 1;
+        &-sm {
+            width: 150px;
+            height: 150px;
+            header {
+                font-size: 18px;
+                .mySubImg {
+                    margin: 0;
+                }
+            }
+            p {
+                height: 66px;
+            }
+        }
+        &-md {
+            width: 200px;
+            height: 200px;
+            header {
+                font-size: 24px;
+                .mySubImg {
+                    margin: 10px;
+                }
+            }
+            p {
+                height: 82px;
+            }
+        }
+        &-lg {
+            width: 300px;
+            height: 300px;
+            header {
+                font-size: 30px;
+                .mySubImg {
+                    margin: 20px;
+                }
+            }
+            p {
+                height: 146px;
+            }
+        }
+        &.info {
+            background-color: blue;
+        }
+        &.warning {
+            background-color: orange;
+        }
+        &.alert {
+            background-color: yellow;
+        }
+        &.error {
+            background-color: red;
+        }
+        &.ok {
+            background-color: green;
+        }
+        a {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            &:hover,
+            &:focus {
+                background-color: rgba(0, 0, 0, .25);
+            }
+        }
+        .tip {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.4);
+            color: #FFFFFF;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            padding: 5px 7px;
+        }
+        header {
+            text-align: center;
+            padding: 10px 5px;
+            .mySubImg {
+                display: inline-block;
+                border: 0px;
+            }
+        }
+        p {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+            overflow: hidden;
+            margin: 0;
+        }
+        .mySubImg {
+            width: 42px;
+            height: 44px;
+            background-image: url("../assets/stack.png");
+        }
+    }
+
+    .grid .tile {
+        display: inline-block;
+    }
